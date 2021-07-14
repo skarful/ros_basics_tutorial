@@ -20,4 +20,4 @@ Though the package may build successfully, it requires a simulation to be runnin
 - wall_follow.py: The main control node that calls the action and service server before setting the robot on a wall-following motion
 - trial_package.launch: A simple launch file to launch the above mentioned nodes
 
-![Image](simulation.png)
+![AddedImage](simulation.PNG)
