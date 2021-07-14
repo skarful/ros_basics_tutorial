@@ -1,0 +1,12 @@
+<launch>
+
+    <node pkg='trial_package' type='action_server.py' name='odometry_action_node' output='screen'>
+    </node>
+    
+    <node pkg='trial_package' type='find_wall_server.py' name='find_wall_server_node' output='screen'>
+    </node>
+
+    <node pkg='trial_package' type='wall_follow.py' name='Wall_follower' output='screen'>
+    </node>
+
+</launch>
